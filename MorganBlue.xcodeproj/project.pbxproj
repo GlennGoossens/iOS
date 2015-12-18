@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39CDB88E1C2470ED00B5710B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CDB88D1C2470ED00B5710B /* AppDelegate.swift */; };
+		39CDB8901C2470ED00B5710B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CDB88F1C2470ED00B5710B /* ViewController.swift */; };
+		39CDB8931C2470ED00B5710B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CDB8911C2470ED00B5710B /* Main.storyboard */; };
+		39CDB8951C2470ED00B5710B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39CDB8941C2470ED00B5710B /* Assets.xcassets */; };
+		39CDB8981C2470ED00B5710B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CDB8961C2470ED00B5710B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39CDB88A1C2470ED00B5710B /* MorganBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorganBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CDB88D1C2470ED00B5710B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39CDB88F1C2470ED00B5710B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39CDB8921C2470ED00B5710B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39CDB8941C2470ED00B5710B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39CDB8971C2470ED00B5710B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39CDB8991C2470ED00B5710B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39CDB8871C2470ED00B5710B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39CDB8811C2470ED00B5710B = {
+			isa = PBXGroup;
+			children = (
+				39CDB88C1C2470ED00B5710B /* MorganBlue */,
+				39CDB88B1C2470ED00B5710B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39CDB88B1C2470ED00B5710B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39CDB88A1C2470ED00B5710B /* MorganBlue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39CDB88C1C2470ED00B5710B /* MorganBlue */ = {
+			isa = PBXGroup;
+			children = (
+				39CDB88D1C2470ED00B5710B /* AppDelegate.swift */,
+				39CDB88F1C2470ED00B5710B /* ViewController.swift */,
+				39CDB8911C2470ED00B5710B /* Main.storyboard */,
+				39CDB8941C2470ED00B5710B /* Assets.xcassets */,
+				39CDB8961C2470ED00B5710B /* LaunchScreen.storyboard */,
+				39CDB8991C2470ED00B5710B /* Info.plist */,
+			);
+			path = MorganBlue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39CDB8891C2470ED00B5710B /* MorganBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39CDB89C1C2470ED00B5710B /* Build configuration list for PBXNativeTarget "MorganBlue" */;
+			buildPhases = (
+				39CDB8861C2470ED00B5710B /* Sources */,
+				39CDB8871C2470ED00B5710B /* Frameworks */,
+				39CDB8881C2470ED00B5710B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorganBlue;
+			productName = MorganBlue;
+			productReference = 39CDB88A1C2470ED00B5710B /* MorganBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39CDB8821C2470ED00B5710B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Glenn Goossens";
+				TargetAttributes = {
+					39CDB8891C2470ED00B5710B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 39CDB8851C2470ED00B5710B /* Build configuration list for PBXProject "MorganBlue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39CDB8811C2470ED00B5710B;
+			productRefGroup = 39CDB88B1C2470ED00B5710B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39CDB8891C2470ED00B5710B /* MorganBlue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39CDB8881C2470ED00B5710B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CDB8981C2470ED00B5710B /* LaunchScreen.storyboard in Resources */,
+				39CDB8951C2470ED00B5710B /* Assets.xcassets in Resources */,
+				39CDB8931C2470ED00B5710B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39CDB8861C2470ED00B5710B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CDB8901C2470ED00B5710B /* ViewController.swift in Sources */,
+				39CDB88E1C2470ED00B5710B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39CDB8911C2470ED00B5710B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39CDB8921C2470ED00B5710B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39CDB8961C2470ED00B5710B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39CDB8971C2470ED00B5710B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39CDB89A1C2470ED00B5710B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39CDB89B1C2470ED00B5710B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39CDB89D1C2470ED00B5710B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MorganBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GG.MorganBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39CDB89E1C2470ED00B5710B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MorganBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GG.MorganBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39CDB8851C2470ED00B5710B /* Build configuration list for PBXProject "MorganBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CDB89A1C2470ED00B5710B /* Debug */,
+				39CDB89B1C2470ED00B5710B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39CDB89C1C2470ED00B5710B /* Build configuration list for PBXNativeTarget "MorganBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CDB89D1C2470ED00B5710B /* Debug */,
+				39CDB89E1C2470ED00B5710B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39CDB8821C2470ED00B5710B /* Project object */;
+}
