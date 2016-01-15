@@ -7,21 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2797F6518E8A9933A811DB53 /* Pods_MorganBlue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7D1CA4181C151B834D1733 /* Pods_MorganBlue.framework */; };
+		396711A01C2C283800BA8FEF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3967119F1C2C283800BA8FEF /* Product.swift */; };
+		396711A41C2C2BB800BA8FEF /* ProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396711A31C2C2BB800BA8FEF /* ProductController.swift */; };
+		396711A61C2C344000BA8FEF /* EmptyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396711A51C2C344000BA8FEF /* EmptyDetailViewController.swift */; };
+		396711A81C2C3D2900BA8FEF /* ProductsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396711A71C2C3D2900BA8FEF /* ProductsController.swift */; };
+		3994905F1C2729FB008EC755 /* AboutContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3994905E1C2729FB008EC755 /* AboutContact.swift */; };
+		399490611C272A7E008EC755 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399490601C272A7E008EC755 /* Contact.swift */; };
+		399490641C272B0B008EC755 /* Adress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399490631C272B0B008EC755 /* Adress.swift */; };
+		399490681C272DE5008EC755 /* AboutContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399490671C272DE5008EC755 /* AboutContactController.swift */; };
+		3994906C1C273949008EC755 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3994906B1C273949008EC755 /* HomeController.swift */; };
+		3996F79D1C2D4E3D004783D6 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996F79C1C2D4E3D004783D6 /* ProductCell.swift */; };
+		3996F79F1C2D52E9004783D6 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996F79E1C2D52E9004783D6 /* ProductModel.swift */; };
+		3996F7A11C2EB45D004783D6 /* WeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996F7A01C2EB45D004783D6 /* WeatherController.swift */; };
+		3996F7AA1C2F0C21004783D6 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996F7A91C2F0C21004783D6 /* Country.swift */; };
+		3996F7AC1C2F0C67004783D6 /* CountryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996F7AB1C2F0C67004783D6 /* CountryData.swift */; };
+		3996F7AE1C2F0EC5004783D6 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996F7AD1C2F0EC5004783D6 /* City.swift */; };
+		3996F7B01C2F175C004783D6 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996F7AF1C2F175C004783D6 /* LocationController.swift */; };
+		3996F7B31C2F226D004783D6 /* defaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996F7B21C2F226D004783D6 /* defaultKeys.swift */; };
+		3996F7B51C2F331B004783D6 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996F7B41C2F331B004783D6 /* WeatherCell.swift */; };
+		3996F7B71C2F3B2E004783D6 /* FiveDayWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996F7B61C2F3B2E004783D6 /* FiveDayWeather.swift */; };
+		3996F7B91C2F3B59004783D6 /* DayWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3996F7B81C2F3B59004783D6 /* DayWeather.swift */; };
 		39CDB88E1C2470ED00B5710B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CDB88D1C2470ED00B5710B /* AppDelegate.swift */; };
-		39CDB8901C2470ED00B5710B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CDB88F1C2470ED00B5710B /* ViewController.swift */; };
 		39CDB8931C2470ED00B5710B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CDB8911C2470ED00B5710B /* Main.storyboard */; };
 		39CDB8951C2470ED00B5710B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39CDB8941C2470ED00B5710B /* Assets.xcassets */; };
 		39CDB8981C2470ED00B5710B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CDB8961C2470ED00B5710B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E1E7822324D588ACA047CEF /* Pods-MorganBlue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorganBlue.release.xcconfig"; path = "Pods/Target Support Files/Pods-MorganBlue/Pods-MorganBlue.release.xcconfig"; sourceTree = "<group>"; };
+		3967119F1C2C283800BA8FEF /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		396711A31C2C2BB800BA8FEF /* ProductController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductController.swift; sourceTree = "<group>"; };
+		396711A51C2C344000BA8FEF /* EmptyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyDetailViewController.swift; sourceTree = "<group>"; };
+		396711A71C2C3D2900BA8FEF /* ProductsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsController.swift; sourceTree = "<group>"; };
+		3994905E1C2729FB008EC755 /* AboutContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutContact.swift; sourceTree = "<group>"; };
+		399490601C272A7E008EC755 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		399490631C272B0B008EC755 /* Adress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adress.swift; sourceTree = "<group>"; };
+		399490671C272DE5008EC755 /* AboutContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutContactController.swift; sourceTree = "<group>"; };
+		3994906B1C273949008EC755 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		3996F79C1C2D4E3D004783D6 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		3996F79E1C2D52E9004783D6 /* ProductModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		3996F7A01C2EB45D004783D6 /* WeatherController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherController.swift; sourceTree = "<group>"; };
+		3996F7A91C2F0C21004783D6 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		3996F7AB1C2F0C67004783D6 /* CountryData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryData.swift; sourceTree = "<group>"; };
+		3996F7AD1C2F0EC5004783D6 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		3996F7AF1C2F175C004783D6 /* LocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		3996F7B21C2F226D004783D6 /* defaultKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = defaultKeys.swift; sourceTree = "<group>"; };
+		3996F7B41C2F331B004783D6 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		3996F7B61C2F3B2E004783D6 /* FiveDayWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveDayWeather.swift; sourceTree = "<group>"; };
+		3996F7B81C2F3B59004783D6 /* DayWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayWeather.swift; sourceTree = "<group>"; };
 		39CDB88A1C2470ED00B5710B /* MorganBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorganBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CDB88D1C2470ED00B5710B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39CDB88F1C2470ED00B5710B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		39CDB8921C2470ED00B5710B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39CDB8941C2470ED00B5710B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39CDB8971C2470ED00B5710B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39CDB8991C2470ED00B5710B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C66F35E982D7F33081119A4 /* Pods-MorganBlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorganBlue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MorganBlue/Pods-MorganBlue.debug.xcconfig"; sourceTree = "<group>"; };
+		AD7D1CA4181C151B834D1733 /* Pods_MorganBlue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorganBlue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +71,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2797F6518E8A9933A811DB53 /* Pods_MorganBlue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		398027ED1C2956E5004A8DF0 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				3967119F1C2C283800BA8FEF /* Product.swift */,
+				3996F79E1C2D52E9004783D6 /* ProductModel.swift */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		3994905A1C272246008EC755 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3996F7AF1C2F175C004783D6 /* LocationController.swift */,
+				399490671C272DE5008EC755 /* AboutContactController.swift */,
+				3994906B1C273949008EC755 /* HomeController.swift */,
+				396711A31C2C2BB800BA8FEF /* ProductController.swift */,
+				396711A51C2C344000BA8FEF /* EmptyDetailViewController.swift */,
+				396711A71C2C3D2900BA8FEF /* ProductsController.swift */,
+				3996F7A01C2EB45D004783D6 /* WeatherController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3994905B1C27224E008EC755 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3996F7B11C2F225B004783D6 /* User */,
+				3996F7A21C2EB4CE004783D6 /* Weather */,
+				398027ED1C2956E5004A8DF0 /* Product */,
+				399490621C272AF4008EC755 /* AboutContact */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3994905C1C272255008EC755 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3996F79C1C2D4E3D004783D6 /* ProductCell.swift */,
+				3996F7B41C2F331B004783D6 /* WeatherCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		399490621C272AF4008EC755 /* AboutContact */ = {
+			isa = PBXGroup;
+			children = (
+				399490601C272A7E008EC755 /* Contact.swift */,
+				3994905E1C2729FB008EC755 /* AboutContact.swift */,
+				399490631C272B0B008EC755 /* Adress.swift */,
+			);
+			name = AboutContact;
+			sourceTree = "<group>";
+		};
+		3996F7A21C2EB4CE004783D6 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				3996F7A91C2F0C21004783D6 /* Country.swift */,
+				3996F7AB1C2F0C67004783D6 /* CountryData.swift */,
+				3996F7AD1C2F0EC5004783D6 /* City.swift */,
+				3996F7B61C2F3B2E004783D6 /* FiveDayWeather.swift */,
+				3996F7B81C2F3B59004783D6 /* DayWeather.swift */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		3996F7B11C2F225B004783D6 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				3996F7B21C2F226D004783D6 /* defaultKeys.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
 		39CDB8811C2470ED00B5710B = {
 			isa = PBXGroup;
 			children = (
 				39CDB88C1C2470ED00B5710B /* MorganBlue */,
 				39CDB88B1C2470ED00B5710B /* Products */,
+				ADFB402EB0564EC99F3A6926 /* Pods */,
+				68501233A67B4A83D056DDC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +172,33 @@
 		39CDB88C1C2470ED00B5710B /* MorganBlue */ = {
 			isa = PBXGroup;
 			children = (
+				3994905C1C272255008EC755 /* View */,
+				3994905B1C27224E008EC755 /* Model */,
+				3994905A1C272246008EC755 /* Controller */,
 				39CDB88D1C2470ED00B5710B /* AppDelegate.swift */,
-				39CDB88F1C2470ED00B5710B /* ViewController.swift */,
 				39CDB8911C2470ED00B5710B /* Main.storyboard */,
 				39CDB8941C2470ED00B5710B /* Assets.xcassets */,
 				39CDB8961C2470ED00B5710B /* LaunchScreen.storyboard */,
 				39CDB8991C2470ED00B5710B /* Info.plist */,
 			);
 			path = MorganBlue;
+			sourceTree = "<group>";
+		};
+		68501233A67B4A83D056DDC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD7D1CA4181C151B834D1733 /* Pods_MorganBlue.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADFB402EB0564EC99F3A6926 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C66F35E982D7F33081119A4 /* Pods-MorganBlue.debug.xcconfig */,
+				1E1E7822324D588ACA047CEF /* Pods-MorganBlue.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39CDB89C1C2470ED00B5710B /* Build configuration list for PBXNativeTarget "MorganBlue" */;
 			buildPhases = (
+				82FE54B289364CBE3221E974 /* Check Pods Manifest.lock */,
 				39CDB8861C2470ED00B5710B /* Sources */,
 				39CDB8871C2470ED00B5710B /* Frameworks */,
 				39CDB8881C2470ED00B5710B /* Resources */,
+				BCA54E9C6105D565A71A2D82 /* Embed Pods Frameworks */,
+				86960B8EDE36B6C968FDFCB8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +236,7 @@
 				TargetAttributes = {
 					39CDB8891C2470ED00B5710B = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = L4NFA89777;
 					};
 				};
 			};
@@ -130,13 +271,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82FE54B289364CBE3221E974 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86960B8EDE36B6C968FDFCB8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorganBlue/Pods-MorganBlue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCA54E9C6105D565A71A2D82 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MorganBlue/Pods-MorganBlue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		39CDB8861C2470ED00B5710B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39CDB8901C2470ED00B5710B /* ViewController.swift in Sources */,
+				399490611C272A7E008EC755 /* Contact.swift in Sources */,
+				3996F79D1C2D4E3D004783D6 /* ProductCell.swift in Sources */,
+				396711A41C2C2BB800BA8FEF /* ProductController.swift in Sources */,
+				3996F7AC1C2F0C67004783D6 /* CountryData.swift in Sources */,
+				396711A81C2C3D2900BA8FEF /* ProductsController.swift in Sources */,
+				3996F7B71C2F3B2E004783D6 /* FiveDayWeather.swift in Sources */,
+				396711A01C2C283800BA8FEF /* Product.swift in Sources */,
+				3996F7B01C2F175C004783D6 /* LocationController.swift in Sources */,
+				3994905F1C2729FB008EC755 /* AboutContact.swift in Sources */,
+				3996F7B91C2F3B59004783D6 /* DayWeather.swift in Sources */,
+				3996F7AA1C2F0C21004783D6 /* Country.swift in Sources */,
+				3996F7A11C2EB45D004783D6 /* WeatherController.swift in Sources */,
+				399490681C272DE5008EC755 /* AboutContactController.swift in Sources */,
+				3996F79F1C2D52E9004783D6 /* ProductModel.swift in Sources */,
+				3994906C1C273949008EC755 /* HomeController.swift in Sources */,
+				3996F7B51C2F331B004783D6 /* WeatherCell.swift in Sources */,
+				396711A61C2C344000BA8FEF /* EmptyDetailViewController.swift in Sources */,
+				399490641C272B0B008EC755 /* Adress.swift in Sources */,
+				3996F7AE1C2F0EC5004783D6 /* City.swift in Sources */,
 				39CDB88E1C2470ED00B5710B /* AppDelegate.swift in Sources */,
+				3996F7B31C2F226D004783D6 /* defaultKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,23 +455,31 @@
 		};
 		39CDB89D1C2470ED00B5710B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C66F35E982D7F33081119A4 /* Pods-MorganBlue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MorganBlue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GG.MorganBlue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		39CDB89E1C2470ED00B5710B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1E7822324D588ACA047CEF /* Pods-MorganBlue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MorganBlue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GG.MorganBlue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +502,7 @@
 				39CDB89E1C2470ED00B5710B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
