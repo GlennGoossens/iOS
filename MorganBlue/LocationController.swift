@@ -39,12 +39,13 @@ class LocationController: UIViewController, UIPickerViewDelegate,UIPickerViewDat
     //insert pickerview + selected saven
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int
     {
-    return cities.count
+    return 1
     }
     
     func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int
     {
-        return 1
+        return cities.count
+        
     }
     
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
